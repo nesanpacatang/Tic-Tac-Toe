@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap");
+
+/* font-family: 'Handjet', cursive; */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #9a1d86, #1595be);
+}
+section {
+  text-align: center;
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  width: 400px;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.1);
+}
+
+.game-title {
+  padding-top: 20px;
+}
+
+#welcome {
+  text-align: center;
+  background: #f3f3f3;
+  width: 400px;
+  margin: auto;
+  margin-top: 120px;
+  border-radius: 20px;
+}
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 150px;
+  margin: 120px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cell {
+  font-family: "Handjet", cursive;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 0 1px #333333;
+  border: 1px solid #333333;
+  cursor: pointer;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+button {
+  margin-bottom: 20px;
+  height: 35px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background: linear-gradient(to right, #9a1d1d, #be1553);
+  cursor: pointer;
+}
